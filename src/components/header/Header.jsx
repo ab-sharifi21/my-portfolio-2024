@@ -30,7 +30,7 @@ const Header = () => {
         <header className={`header ${isScrolled ? 'scrolled' : ''} ${menuOpen ? 'open-header' : ''}`}>
             <nav className='nav-container'>
                 <a href="#home">
-                    <img src="../../public/logo1.png" alt="Abdullah's Logo" />
+                    <img src="../../logo1.png" alt="Abdullah's Logo" />
                 </a>
                 <div className='hambuger' onClick={() => setMenuOpen(!menuOpen)}>
                     <span></span>
