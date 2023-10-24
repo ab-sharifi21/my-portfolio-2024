@@ -1,0 +1,97 @@
+.contact-container {
+    width: var(--container-width-lg);
+    margin: 0 auto 5rem;
+}
+
+.contact-container > h2 {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.contact-container > h2 > span {
+    height: 0;
+    width: 86.3%;
+    border-bottom: 2px solid var(--light-color);
+    position: absolute;
+    left: 6.5rem;
+    bottom: 5px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.in-touch-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.in-touch-container > h3 {
+    font-size: 2rem;
+}
+
+.in-touch-container > p {
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', sans-serif;
+    color: var(--primary-color);
+}
+
+.phone-address-email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item > svg {
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+}
+
+.contact-item > svg:hover {
+    transform: scale(1.1);
+}
+
+.contact-item > p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item > p:last-of-type {
+    font-size: 0.9rem;
+    color: var(--light-color);
+}
+
+
+/* For Tablets */
+@media (481px <= width <=768px) {
+    .contact-container {
+        width: var(--container-width-md);
+    }
+
+    .contact-container > h2 > span {
+        width: 85.5%;
+    }
+}
+
+/* For Mobiles */
+@media (320px <= width <= 479px) {
+    .contact-container > h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .contact-container > h2 > span {
+        display: none;
+    }
+}
