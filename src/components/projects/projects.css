@@ -44,6 +44,7 @@
 @media (320px <= width <= 479px) {
     .projects-container {
         width: var(--container-width-sm);
+        margin-bottom: 4rem;
     }
 
     .projects-container > div > h2 > span {

@@ -14,17 +14,23 @@ const Contact = () => {
                 </div>
                 <div className='phone-address-email'>
                     <div className='contact-item'>
-                        <BsTelephoneOutboundFill />
+                        <a href="tel:+34632698684">
+                            <BsTelephoneOutboundFill />
+                        </a>
                         <p>Phone & Mobile</p>
                         <p>+34 632 698684</p>
                     </div>
                     <div className='contact-item'>
-                        <HiLocationMarker />
+                        <a>
+                            <HiLocationMarker />
+                        </a>
                         <p>Address</p>
                         <p>Santiago de Compostela, Galicia, Spain</p>
                     </div>
                     <div className='contact-item'>
-                        <BiLogoGmail />
+                        <a href="mailto:ab.sharifi19@gmail.com">
+                            <BiLogoGmail />
+                        </a>
                         <p>Email</p>
                         <p>ab.sharifi19@gmail.com</p>
                     </div>

@@ -42,7 +42,7 @@
     font-size: 1.2rem;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s steps(18, end) infinite;
+    animation: typing 5s steps(18, end);
 }
 
 @keyframes typing {
@@ -122,11 +122,7 @@
 @media (320px <= width <= 479px) {
     .home-container {
         width: var(--container-width-sm);
-        margin-bottom: 3rem;
-    }
-
-    .home-container {
-        width: var(--container-width-sm);
+        margin-bottom: 2rem;
         flex-direction: column;
         display: grid;
         grid-template-rows: auto auto;
