@@ -119,7 +119,7 @@
 }
 
 /* For Mobiles */
-@media (320px <= width <= 479px) {
+@media (max-width: 480px) {
     .home-container {
         width: var(--container-width-sm);
         margin-bottom: 2rem;

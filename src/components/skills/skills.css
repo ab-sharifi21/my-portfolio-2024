@@ -90,7 +90,7 @@
 }
 
 /* For Mobiles */ 
-@media (320px <= width <= 479px) {
+@media (max-width: 480px) {
     .skills-container {
         width: var(--container-width-sm);
         grid-template-columns: 1fr;

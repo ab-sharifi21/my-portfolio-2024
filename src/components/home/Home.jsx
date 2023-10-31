@@ -2,7 +2,7 @@ import { BiDownload } from 'react-icons/bi';
 import { BsGithub } from 'react-icons/bs';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BiLogoGmail } from 'react-icons/bi';
-import CV from '../../assets/final-cv-en.pdf';
+import CV from '../../assets/Abdullah-CV.pdf';
 import Me from '../../assets/me.jpg';
 import './home.css';
 
