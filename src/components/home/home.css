@@ -94,6 +94,12 @@
     color: var(--light-color);
 }
 
+@media (min-width: 1920px) {
+    .home-container {
+        width: 75%;
+    }
+}
+
 /* For tablets */
 @media (481px <= width <=768px) {
     .home-container {

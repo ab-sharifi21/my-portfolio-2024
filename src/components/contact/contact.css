@@ -72,6 +72,11 @@
     color: var(--light-color);
 }
 
+@media (min-width: 1920px) {
+    .contact-container {
+        width: 75%;
+    }
+}
 
 /* For Tablets */
 @media (481px <= width <=768px) {

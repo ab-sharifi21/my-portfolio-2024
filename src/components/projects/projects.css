@@ -29,6 +29,12 @@
     gap: 3rem;
 }
 
+@media (min-width: 1920px) {
+    .projects-container {
+        width: 75%;
+    }
+}
+
 /* For Tablets */
 @media (481px <= width <=768px) {
     .projects-container {

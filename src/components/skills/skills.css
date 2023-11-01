@@ -89,6 +89,12 @@
     }
 }
 
+@media (min-width: 1920px) {
+    .skills-container {
+        width: 75%;
+    }
+}
+
 /* For Mobiles */ 
 @media (max-width: 480px) {
     .skills-container {
