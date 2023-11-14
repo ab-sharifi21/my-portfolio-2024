@@ -67,10 +67,19 @@
     margin-bottom: 0.5rem;
 }
 
-.contact-item > p:last-of-type {
+.contact-item > .address {
+    color: var(--light-color);
+}
+
+.contact-item > a {
     font-size: 0.9rem;
     color: var(--light-color);
 }
+
+.contact-item > a:hover {
+    color: white;
+}
+
 
 @media (min-width: 1920px) {
     .contact-container {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .home-container {
-    margin: 8rem auto 5rem;
+    margin: 5rem auto;
     width: var(--container-width-lg);
     display: flex;
     justify-content: space-between;
@@ -115,12 +115,6 @@
 
     .home-container > img {
         grid-row-start: 1;
-        /* display: none; */
-        /* border-top-right-radius: 100%;
-        border-top-left-radius: 100%;
-        border-bottom-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-        height: auto; */
     }
 }
 
@@ -138,7 +132,6 @@
     }
 
     .home-container > img {
-        /* display: none; */
         grid-row-start: 1;
         border-top-right-radius: 100%;
         border-top-left-radius: 100%;

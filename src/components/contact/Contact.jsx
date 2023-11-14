@@ -18,21 +18,21 @@ const Contact = () => {
                             <BsTelephoneOutboundFill />
                         </a>
                         <p>Phone & Mobile</p>
-                        <p>+34 632 698684</p>
+                        <a href='tel:+34632698684'>+34 632 698684</a>
                     </div>
                     <div className='contact-item'>
                         <a>
                             <HiLocationMarker />
                         </a>
                         <p>Address</p>
-                        <p>Santiago de Compostela, Galicia, Spain</p>
+                        <p className='address'>Santiago de Compostela, Galicia, Spain</p>
                     </div>
                     <div className='contact-item'>
                         <a href="mailto:ab.sharifi19@gmail.com">
                             <BiLogoGmail />
                         </a>
                         <p>Email</p>
-                        <p>ab.sharifi19@gmail.com</p>
+                        <a href='mailto:ab.sharifi19@gmail.com'>ab.sharifi19@gmail.com</a>
                     </div>
                 </div>
             </div>
