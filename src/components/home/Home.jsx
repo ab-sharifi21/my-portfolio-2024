@@ -2,7 +2,7 @@ import { BiDownload } from 'react-icons/bi';
 import { BsGithub } from 'react-icons/bs';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BiLogoGmail } from 'react-icons/bi';
-import CV from '../../assets/abdullah-en.pdf';
+import CV from '../../assets/abdullah_sharifi_cv_en.pdf';
 import Me from '../../assets/me.jpg';
 import './home.css';
 
