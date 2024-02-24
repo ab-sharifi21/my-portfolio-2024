@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { BsGithub } from 'react-icons/bs';
 import { TbWorld } from 'react-icons/tb';
 import p2p from '../../assets/logo.webp';
+import weatherApp from '../../assets/weather-app.png';
 import './projectCard.css';
 
 const ProjectCard = ({ project }) => {
@@ -9,7 +10,7 @@ const ProjectCard = ({ project }) => {
     return (
         <article>
             <div className='logo-container'>
-                <img src={project.name === 'P2P - Marketplace' ? p2p : null} alt="logo of P2P" />
+                <img src={project.name === 'P2P - Marketplace' ? p2p : weatherApp} alt="logo of P2P" />
                 <div className='social-media-container'>
                     <a href={github} rel='noreferrer' target='_blank' title='github'><BsGithub /></a>
                     {

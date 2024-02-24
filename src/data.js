@@ -15,6 +15,19 @@ const projects = [
             'SQL'
         ]
     },
+    {
+        id: 2,
+        name: 'Weather App',
+        description: 'It is a responsive weather app that allows you acess hourly weather forcasts and predictions for the upcoming five days by either enterring your preffered city name of utilizing your current location...',
+        github: 'https://github.com/ab-sharifi21/weather-app-react-spa',
+        url: 'https://weather-app-react-spa.netlify.app',
+        tools: [
+            'HTML',
+            'Tailwind',
+            'TypeScript',
+            'React',
+        ]
+    },
 ]
 
 export { projects };
