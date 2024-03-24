@@ -1,4 +1,4 @@
-import { Header, Home } from './components';
+import { Header, Home, Skills } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
 
         <main className="flex flex-col items-center">
           <Home />
+          <Skills />
         </main>
       </div>
     </div>

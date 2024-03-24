@@ -6,3 +6,9 @@ export type Link = {
   href: string;
   icon: ReactElement;
 };
+
+export type Skill = {
+  id: number;
+  name: string;
+  icon: ReactElement;
+};

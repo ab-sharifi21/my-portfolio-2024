@@ -17,6 +17,9 @@ export default {
       backgroundImage: {
         bgImage: "url('./src/assets/bg-image.png')",
       },
+      boxShadow: {
+        boxShadow: '0px 8px 8px 8px rgba(0, 0, 0, 0.5)',
+      },
     },
   },
   plugins: [],
