@@ -15,25 +15,41 @@ export const Contact = () => {
 
       <div className="flex flex-wrap items-center justify-center gap-8">
         <div className="flex flex-col items-center gap-4">
-          <a className="text-primaryColor" href="tel:+34632698684">
+          <a
+            className="text-primaryColor duration-300 hover:scale-110 hover:text-blue-600"
+            href="tel:+34632698684"
+          >
             <BsTelephoneOutboundFill className="h-10 w-10" />
           </a>
           <p className="font-semibold">Phone & Mobile</p>
-          <a href="tel:+34632698684">+34 632 698684</a>
+          <a
+            className="duration-300 hover:scale-110 hover:text-blue-600"
+            href="tel:+34632698684"
+          >
+            +34 632 698684
+          </a>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <a className="text-primaryColor">
+          <a className="duration text-primaryColor hover:scale-110 hover:text-blue-600">
             <HiLocationMarker className="h-10 w-10" />
           </a>
           <p className="font-semibold">Address</p>
           <p className="address">Santiago de Compostela, Galicia, Spain</p>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <a className="text-primaryColor" href="mailto:ab.sharifi19@gmail.com">
+          <a
+            className="text-primaryColor duration-300 hover:scale-110 hover:text-blue-600"
+            href="mailto:ab.sharifi19@gmail.com"
+          >
             <BiLogoGmail className="h-10 w-10" />
           </a>
           <p className="font-semibold">Email</p>
-          <a href="mailto:ab.sharifi19@gmail.com">ab.sharifi19@gmail.com</a>
+          <a
+            className="duration-300 hover:scale-110 hover:text-blue-600"
+            href="mailto:ab.sharifi19@gmail.com"
+          >
+            ab.sharifi19@gmail.com
+          </a>
         </div>
       </div>
     </section>
