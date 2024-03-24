@@ -1,4 +1,5 @@
 import { Header, Home, Skills } from './components';
+import { Projects } from './components/Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <main className="flex flex-col items-center">
           <Home />
           <Skills />
+          <Projects />
         </main>
       </div>
     </div>

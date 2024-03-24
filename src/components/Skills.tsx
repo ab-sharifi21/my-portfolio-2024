@@ -74,7 +74,7 @@ const skills: Skill[] = [
 
 export const Skills = () => {
   return (
-    <section id="skills" className="mb-10 mt-16 w-full tablet:px-10">
+    <section id="skills" className="mb-10 mt-8 w-full tablet:px-10">
       <h2 className="mb-4 text-center text-2xl font-bold tablet:text-left">
         SKills & Technologies
       </h2>

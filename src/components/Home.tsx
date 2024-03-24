@@ -61,27 +61,27 @@ export const Home = () => {
             Resume
             <ArrowDownTrayIcon className="h-5 w-6" />
           </a>
-          <div className="flex gap-3 text-black">
+          <div className="mt-4 flex gap-3 text-black">
             <a
               className="rounded-full bg-primaryColor p-1 duration-300 hover:scale-110 hover:bg-blue-500"
               href="https://github.com/ab-sharifi21"
               target="_blanck"
             >
-              <BsGithub className="h-5 w-5" />
+              <BsGithub className="h-6 w-6" />
             </a>
             <a
               className="rounded-full bg-primaryColor p-1 duration-300 hover:scale-110 hover:bg-blue-500"
               href="https://www.linkedin.com/in/abdullahsharifi/"
               target="_blanck"
             >
-              <BiLogoLinkedin className="h-5 w-5" />
+              <BiLogoLinkedin className="h-6 w-6" />
             </a>
             <a
               className="rounded-full bg-primaryColor p-1 duration-300 hover:scale-110 hover:bg-blue-500"
               href="mailto:ab.sharifi19@gmail.com"
               target="_blanck"
             >
-              <BiLogoGmail className="h-5 w-5" />
+              <BiLogoGmail className="h-6 w-6" />
             </a>
           </div>
         </div>

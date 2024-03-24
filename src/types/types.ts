@@ -12,3 +12,12 @@ export type Skill = {
   name: string;
   icon: ReactElement;
 };
+
+export type Project = {
+  id: number;
+  name: string;
+  description: string;
+  github: string;
+  url?: string;
+  tools: string[];
+};
