@@ -1,4 +1,4 @@
-import { Header, Home, Skills } from './components';
+import { Contact, Header, Home, Skills } from './components';
 import { Projects } from './components/Projects';
 
 function App() {
@@ -11,7 +11,11 @@ function App() {
           <Home />
           <Skills />
           <Projects />
+          <Contact />
         </main>
+        <footer className="mb-8 text-center text-sm">
+          <p>Copyright © 2023 Abdullah Sharifi. All rights reserved</p>
+        </footer>
       </div>
     </div>
   );

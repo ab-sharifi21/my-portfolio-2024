@@ -4,3 +4,4 @@ export { Home } from './Home';
 export { Skills } from './Skills';
 export { Projects } from './Projects';
 export { ProjectCard } from './ProjectCard';
+export { Contact } from './Contact';
