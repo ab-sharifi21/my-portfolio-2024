@@ -1,46 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
-:root {
-  --bg-color: #1f1f38;
-  --primary-color: #4db5ff;
-  --font-color: #fff;
-  --light-color: rgba(255, 255, 255, 0.6);
-  --skill-box-color: #436D7B;
-  --transition: all 300ms ease;
-
-  --container-width-lg: 80%; 
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: 
-  url('./assets/fonts/Poppins-Regular.ttf'),
-  url('./assets/fonts/Poppins-Bold.ttf'),
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
-  background-color: var(--bg-color);
-  font-family: 'Poppins', sans-serif;
-  color: var(--font-color);
-  background-image: url(../src/assets/bg-texture.png);
+    font-family: 'Poppins';
 }
 
-a {
-  color: var(--font-color);
+.hi {
+    font-family: 'Dancing Script';
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.animate-typing {
+    animation: typing 4s steps(18, end);
 }
