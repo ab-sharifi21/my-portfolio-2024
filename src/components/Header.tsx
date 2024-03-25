@@ -1,6 +1,7 @@
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import { NavItem } from '.';
 import { useEffect, useState } from 'react';
+import Logo from '../../public/logo.png';
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,7 +29,7 @@ export const Header = () => {
       <a href="#home">
         <img
           className="h-[4rem] w-[4rem] laptop:h-[5rem] laptop:w-[5rem]"
-          src="../../public/logo.png"
+          src={Logo}
           alt="Abdullah's Logo"
         />
       </a>

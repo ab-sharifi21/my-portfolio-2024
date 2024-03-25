@@ -15,7 +15,7 @@ export default {
         skillBoxColor: '#436D7B',
       },
       backgroundImage: {
-        bgImage: "url('./src/assets/bg-image.png')",
+        bgImage: "url('./public/bgImage.png')",
       },
       boxShadow: {
         boxShadow: '0px 8px 8px 8px rgba(0, 0, 0, 0.5)',
