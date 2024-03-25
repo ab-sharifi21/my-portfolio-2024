@@ -5,6 +5,7 @@ import {
   PhoneIcon,
 } from '@heroicons/react/24/outline';
 import { Link } from '../types/types';
+import { useState } from 'react';
 
 const links: Link[] = [
   {
@@ -34,14 +35,19 @@ const links: Link[] = [
 ];
 
 export const NavItem = () => {
+  const [activeLink, setActiveLink] = useState('#home');
+  const handleClick = (linkUrl: string) => {
+    setActiveLink(linkUrl);
+  };
   return (
     <>
       {links.map((link) => {
         return (
           <a
-            className="item-center hover:text-primaryColor flex justify-center gap-1 hover:underline"
+            className={`item-center flex justify-center gap-1 hover:text-primaryColor hover:underline ${activeLink === link.href ? 'text-blue-600 underline' : ''}`}
             key={link.id}
             href={link.href}
+            onClick={() => handleClick(link.href)}
           >
             {link.icon}
             {link.name}

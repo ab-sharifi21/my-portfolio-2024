@@ -9,15 +9,15 @@ import { BiLogoGmail, BiLogoLinkedin } from 'react-icons/bi';
 
 export const Home = () => {
   return (
-    <section id="home" className="tablet:px-10">
-      <div className="mb-[3rem] flex w-full flex-col items-center justify-center gap-[4rem] laptop:mb-[5rem] laptop:flex-row laptop:justify-between">
+    <section id="home" className="mb-[1rem] tablet:px-10">
+      <div className="mb-[2.5rem] flex w-full flex-col items-center justify-center gap-[4rem]  laptop:flex-row laptop:justify-between">
         <img
           src={me}
           alt="Abdullah's photo"
-          className="h-[22rem] w-[18rem] rounded-tl-full rounded-tr-full object-cover tablet:h-[23rem] tablet:w-[23rem] tablet:rounded-full laptop:order-2"
+          className="h-[22rem] w-[18rem] rounded-bl-lg rounded-br-lg rounded-tl-full rounded-tr-full object-cover tablet:h-[23rem] tablet:w-[23rem] tablet:rounded-full laptop:order-2"
         />
         <div className="w-full px-4 text-left laptop:w-auto">
-          <p className="hi text-3xl text-primaryColor">Hi there!</p>
+          <p className="hi text-xl text-primaryColor">Hi there!</p>
           <h1 className="text-[2rem] font-semibold">I am Abdullah Sharifi</h1>
           <h2 className="animate-typing mb-6 overflow-hidden whitespace-nowrap text-[1.2rem] font-semibold text-primaryColor">
             Full-Stack Web Developer

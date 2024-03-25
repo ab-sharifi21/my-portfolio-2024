@@ -23,7 +23,7 @@ export const Contact = () => {
           </a>
           <p className="font-semibold">Phone & Mobile</p>
           <a
-            className="duration-300 hover:scale-110 hover:text-blue-600"
+            className="text-sm text-slate-400 duration-300 hover:scale-110 hover:text-blue-600"
             href="tel:+34632698684"
           >
             +34 632 698684
@@ -34,18 +34,18 @@ export const Contact = () => {
             <HiLocationMarker className="h-10 w-10" />
           </a>
           <p className="font-semibold">Address</p>
-          <p className="address">Santiago de Compostela, Galicia, Spain</p>
+          <p className="text-sm text-slate-400">A Coruña, Galicia, Spain</p>
         </div>
         <div className="flex flex-col items-center gap-4">
           <a
-            className="text-primaryColor duration-300 hover:scale-110 hover:text-blue-600"
+            className="text-primaryColor duration-300 hover:scale-110  hover:text-blue-600"
             href="mailto:ab.sharifi19@gmail.com"
           >
             <BiLogoGmail className="h-10 w-10" />
           </a>
           <p className="font-semibold">Email</p>
           <a
-            className="duration-300 hover:scale-110 hover:text-blue-600"
+            className="text-sm text-slate-400 duration-300 hover:scale-110 hover:text-blue-600"
             href="mailto:ab.sharifi19@gmail.com"
           >
             ab.sharifi19@gmail.com

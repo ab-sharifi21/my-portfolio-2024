@@ -13,7 +13,7 @@ function App() {
           <Projects />
           <Contact />
         </main>
-        <footer className="mb-8 text-center text-sm">
+        <footer className="mb-8 text-center text-xs text-slate-200">
           <p>Copyright © 2023 Abdullah Sharifi. All rights reserved</p>
         </footer>
       </div>
