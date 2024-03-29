@@ -3,7 +3,7 @@ import { Projects } from './components/Projects';
 
 function App() {
   return (
-    <div className="flex min-h-screen w-full justify-center bg-bgColor bg-[url('../public/bgImage.png')] bg-bgImage text-white">
+    <div className="flex min-h-screen w-full justify-center bg-bgColor bg-bgImage text-white">
       <div className="w-full max-w-6xl">
         <Header />
 

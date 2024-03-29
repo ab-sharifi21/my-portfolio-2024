@@ -44,7 +44,7 @@ export const NavItem = () => {
       {links.map((link) => {
         return (
           <a
-            className={`item-center flex justify-center gap-1 hover:text-primaryColor hover:underline ${activeLink === link.href ? 'text-blue-600 underline' : ''}`}
+            className={`item-center flex justify-center gap-1 hover:text-primaryColor hover:no-underline laptop:hover:underline ${activeLink === link.href ? 'text-blue-600 laptop:underline' : ''}`}
             key={link.id}
             href={link.href}
             onClick={() => handleClick(link.href)}
