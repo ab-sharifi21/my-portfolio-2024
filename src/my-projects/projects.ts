@@ -19,4 +19,13 @@ export const projects: Project[] = [
     url: 'https://weather-app-react-spa.netlify.app',
     tools: ['HTML', 'Tailwind', 'TypeScript', 'React'],
   },
+  {
+    id: 2,
+    name: 'To Do App',
+    description:
+      'This is a simple To do App built with React, TypeScript and TailwindCSS. It allows you to add, edit, remove, and mark tasks as completed or uncompleted...',
+    github: 'https://github.com/ab-sharifi21/To-Do-App-React',
+    url: 'https://ab-todo-app-react.netlify.app/',
+    tools: ['HTML', 'CSS', 'Tailwind', 'TypeScript', 'React'],
+  },
 ];
