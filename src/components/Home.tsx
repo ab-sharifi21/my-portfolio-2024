@@ -56,7 +56,7 @@ export const Home = () => {
             href={CV}
             download
             title="download cv"
-            className="mb-2 mt-6 flex w-[7rem] justify-between rounded-full bg-primaryColor px-3 py-2 text-sm text-black duration-500 hover:scale-110"
+            className="mb-2 mt-6 flex w-[7rem] justify-between rounded-full font-semibold bg-primaryColor px-3 py-2 text-sm text-black duration-500 hover:scale-110"
           >
             Resume
             <ArrowDownTrayIcon className="h-5 w-6" />
