@@ -23,7 +23,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
   }
 
   return (
-    <article className="flex h-[32rem] w-[21rem] flex-col rounded-lg bg-bgColor p-4 shadow-boxShadow">
+    <article className="flex h-[32rem] w-[20rem] flex-col rounded-lg bg-bgColor py-2 px-4 shadow-box-shadow border border-slate-400">
       <div className="relative">
         <img
           className="mb-8 h-[6.5rem] w-[15rem] object-contain grayscale-[50%]"
