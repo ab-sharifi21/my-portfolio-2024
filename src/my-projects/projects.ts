@@ -23,7 +23,7 @@ export const projects: Project[] = [
     id: 3,
     name: 'Weather App',
     description:
-      'It is a responsive weather app that allows you acess hourly weather forcasts and predictions for the upcoming five days by either enterring your preffered city name of utilizing your current location...',
+      'It is a responsive weather app that allows you access hourly weather forecasts and predictions for the upcoming five days by either entering your preffered city name or utilizing your current location...',
     github: 'https://github.com/ab-sharifi21/weather-app-react-spa',
     url: 'https://weather-app-react-spa.netlify.app',
     tools: ['HTML', 'Tailwind', 'TypeScript', 'React'],
