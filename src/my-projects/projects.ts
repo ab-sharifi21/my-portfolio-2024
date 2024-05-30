@@ -12,6 +12,15 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    name: 'MovieMix',
+    description:
+      'Movie web app that taps into The Movie Database (TMDb) API to bring you all the movie info you are looking for. Discover everything from plot summaries and cast details to release dates and ratings, all in one place...',
+    github: 'https://github.com/ab-sharifi21/MovieMix',
+    url: 'https://mixmovie.netlify.app/',
+    tools: ['Next.js', 'HTML', 'CSS', 'Tailwind', 'TypeScript', 'React', 'Framer motion'],
+  },
+  {
+    id: 3,
     name: 'Weather App',
     description:
       'It is a responsive weather app that allows you acess hourly weather forcasts and predictions for the upcoming five days by either enterring your preffered city name of utilizing your current location...',
@@ -20,7 +29,7 @@ export const projects: Project[] = [
     tools: ['HTML', 'Tailwind', 'TypeScript', 'React'],
   },
   {
-    id: 2,
+    id: 4,
     name: 'To Do App',
     description:
       'This is a simple To do App built with React, TypeScript and TailwindCSS. It allows you to add, edit, remove, and mark tasks as completed or uncompleted...',

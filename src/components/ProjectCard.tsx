@@ -4,6 +4,7 @@ import { Project } from '../types/types';
 import p2p from '../assets/p2p.webp';
 import weatherApp from '../assets/weather-app.png';
 import toDoApp from '../assets/todo-icon.svg';
+import MovieMix from '../assets/movie-mix.png';
 
 type ProjectCardProps = {
   project: Project;
@@ -18,12 +19,14 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
     imageUrl = p2p
   } else if (project.name === 'Weather App') {
     imageUrl = weatherApp
+  } else if (project.name === 'MovieMix'){
+    imageUrl = MovieMix;
   } else {
-    imageUrl = toDoApp;
+    imageUrl = toDoApp
   }
 
   return (
-    <article className="flex h-[32rem] w-[20rem] flex-col rounded-lg bg-bgColor py-2 px-4 shadow-box-shadow border border-slate-400">
+    <article className="flex h-[32rem] w-[20rem] flex-col rounded-lg bg-bgColor py-2 px-4 shadow-boxShadow border border-slate-400">
       <div className="relative">
         <img
           className="mb-8 h-[6.5rem] w-[15rem] object-contain grayscale-[50%]"
