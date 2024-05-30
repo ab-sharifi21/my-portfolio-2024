@@ -26,7 +26,7 @@ export const Home = () => {
             I am a highly motivated web developer with a range of skills
             spanning from front-end to back-end. Recently, I have completed the
             internship of Professional Certificate in Web Development (IFCD0210)
-            at Galician Institue of High Energy Physics (IGFAE). Learn more
+            at Galician Institute of High Energy Physics (IGFAE). Learn more
             about my experience at IGFAE{' '}
             <a
               className="text-primaryColor hover:text-blue-600 hover:underline"
