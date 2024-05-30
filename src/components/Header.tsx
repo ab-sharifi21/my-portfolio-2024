@@ -29,9 +29,9 @@ export const Header = () => {
 
   return (
     <header
-      className={`left-0 right-0 top-0 mb-[3rem] px-4  ${
-        isScrolled ? 'sticky rounded-bl-lg rounded-br-lg bg-black/80' : ''
-      } ${isOpen ? 'bg-black/80' : ''}`}
+      className={`left-0 right-0 top-0 mb-[3.5rem] px-4  ${
+        isScrolled ? 'sticky rounded-bl-md rounded-br-md bg-white bg-opacity-20 backdrop-blur-3xl' : ''
+      } ${isOpen ? 'bg-white bg-opacity-20 backdrop-blur-2xl' : ''}`}
     >
       <div
         className={`flex w-full items-center justify-between ${isOpen ? 'flex-col' : ''}`}
@@ -39,7 +39,7 @@ export const Header = () => {
         <div className="flex w-full flex-1 justify-between">
           <a href="#home">
             <img
-              className="h-[4rem] w-[4rem] laptop:h-[5rem] laptop:w-[5rem]"
+              className="h-[3.5rem] w-[3.5rem] laptop:h-[4.5rem] laptop:w-[4.5rem]"
               src={Logo}
               alt="Abdullah's Logo"
             />
