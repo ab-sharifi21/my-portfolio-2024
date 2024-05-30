@@ -14,7 +14,7 @@ export const Home = () => {
         <img
           src={me}
           alt="Abdullah's photo"
-          className="h-[22rem] w-[18rem] rounded-bl-lg rounded-br-lg rounded-tl-full rounded-tr-full object-cover tablet:h-[23rem] tablet:w-[23rem] tablet:rounded-full laptop:order-2"
+          className="h-[22rem] w-[18rem] rounded-tr-full rounded-tl-full object-cover tablet:h-[23rem] tablet:w-[23rem] tablet:rounded-full laptop:order-2"
         />
         <div className="w-full px-4 text-left laptop:w-auto">
           <p className="hi text-xl text-primaryColor">Hi there!</p>
