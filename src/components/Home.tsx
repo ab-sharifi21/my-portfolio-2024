@@ -3,7 +3,7 @@ import {
   EllipsisHorizontalIcon,
 } from '@heroicons/react/24/outline';
 import me from '../assets/me.jpg';
-import CV from '../assets/abdullah_sharifi_cv_en.pdf';
+import CV from '../assets/abdullah-sharifi.pdf';
 import { BsGithub } from 'react-icons/bs';
 import { BiLogoGmail, BiLogoLinkedin } from 'react-icons/bi';
 
