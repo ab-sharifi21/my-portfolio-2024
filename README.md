@@ -1,11 +1,11 @@
-# Web Developer PortFolio with React.js
+# Web Developer PortFolio with React.js and Tailwind CSS
 
 <div align="center">
     <img src="./src/assets/portfolio.png" />
 </div>
 
 ## About the project
-It's my portfolio website where you can see some of the projects I have been wokring on recently and skills that of that have been learning. It's completely responsive so you can explore it on any device you like. Check out the live demo: [Abdullah's portfolio](https://abdullah-sharifi.netlify.app/)
+It's a personal portfolio website. It's completely responsive so you can explore it on any device you like. Check out the live demo: [React portfolio](https://react-tailwindcss-portfolio-abdullah.netlify.app/)
 
 ## Installation
 - Clone the repository
