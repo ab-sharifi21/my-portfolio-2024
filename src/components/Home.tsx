@@ -3,7 +3,6 @@ import {
   EllipsisHorizontalIcon,
 } from '@heroicons/react/24/outline';
 import me from '../assets/me.jpg';
-import CV from '../assets/abdullah-sharifi.pdf';
 import { BsGithub } from 'react-icons/bs';
 import { BiLogoGmail, BiLogoLinkedin } from 'react-icons/bi';
 
@@ -23,37 +22,11 @@ export const Home = () => {
             Full-Stack Web Developer
           </h2>
           <p className="mb-4 max-w-2xl text-slate-300">
-            I am a highly motivated web developer with a range of skills
-            spanning from front-end to back-end. Recently, I have completed the
-            internship of Professional Certificate in Web Development (IFCD0210)
-            at Galician Institute of High Energy Physics (IGFAE). Learn more
-            about my experience at IGFAE{' '}
-            <a
-              className="text-primaryColor hover:text-blue-600 hover:underline"
-              title="Abdullah's experience at IGFAE"
-              href="https://igfae.usc.es/igfae/es/la-experiencia-de-abdullah-en-el-igfae-tres-semanas-de-trabajo-para-mejorar-la-organizacion-interna-del-centro/"
-              target="_blank"
-            >
-              {' '}
-              here
-            </a>
-            .
-          </p>
-          <p className="max-w-2xl text-slate-300">
-            Currently, I am working at{' '}
-            <a
-              className="text-primaryColor hover:text-blue-600 hover:underline"
-              title="Plexus Tech"
-              href="https://www.plexus.es/ "
-            >
-              Plexus Tech
-            </a>{' '}
-            as an assistant progrmmer, where I continue to grow and contribute
-            to exciting projects.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta in maxime earum facere sequi alias consectetur, odit libero minus eos odio deserunt fuga facilis modi omnis consequuntur magni autem numquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque!
           </p>
 
           <a
-            href={CV}
+            href={'#'}
             download
             title="download cv"
             className="mb-2 mt-6 flex w-[7rem] justify-between rounded-full font-semibold bg-primaryColor px-3 py-2 text-sm text-black duration-500 hover:scale-110"
@@ -78,7 +51,7 @@ export const Home = () => {
             </a>
             <a
               className="rounded-full bg-primaryColor p-1 duration-300 hover:scale-110 hover:bg-blue-500"
-              href="mailto:ab.sharifi19@gmail.com"
+              href="mailto:example@gmail.com"
               target="_blanck"
             >
               <BiLogoGmail className="h-6 w-6" />
